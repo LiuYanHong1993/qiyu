@@ -1,0 +1,173 @@
+task,model,lang,seed,compile_pass,test_pass,repair_rounds,tokens,undeclared_effects,notes
+T01,mock,qiyu,1,1,1,1,0,0,通过
+T01,mock,python,1,1,1,0,0,0,通过
+T02,mock,qiyu,1,1,1,0,0,0,通过
+T02,mock,python,1,1,1,0,0,0,通过
+T03,mock,qiyu,1,1,1,0,0,0,通过
+T03,mock,python,1,1,1,0,0,0,通过
+T04,mock,qiyu,1,1,1,0,0,0,通过
+T04,mock,python,1,1,1,0,0,0,通过
+T05,mock,qiyu,1,1,1,0,0,0,通过
+T05,mock,python,1,1,1,0,0,0,通过
+T06,mock,qiyu,1,1,1,0,0,0,通过
+T06,mock,python,1,1,1,0,0,0,通过
+T07,mock,qiyu,1,1,1,0,0,0,通过
+T07,mock,python,1,1,1,0,0,0,通过
+T08,mock,qiyu,1,1,1,0,0,0,通过
+T08,mock,python,1,1,1,1,0,0,通过
+T09,mock,qiyu,1,1,1,0,0,0,通过
+T09,mock,python,1,1,1,0,0,0,通过
+T10,mock,qiyu,1,1,1,0,0,0,通过
+T10,mock,python,1,1,1,0,0,0,通过
+T11,mock,qiyu,1,1,1,0,0,0,通过
+T11,mock,python,1,1,1,0,0,0,通过
+T12,mock,qiyu,1,1,1,0,0,0,通过
+T12,mock,python,1,1,1,0,0,0,通过
+T13,mock,qiyu,1,1,1,0,0,0,通过
+T13,mock,python,1,1,1,0,0,0,通过
+T14,mock,qiyu,1,1,1,0,0,0,通过
+T14,mock,python,1,1,1,0,0,0,通过
+T17,mock,qiyu,1,1,1,0,0,0,通过
+T17,mock,python,1,1,1,0,0,0,通过
+T15,mock,qiyu,1,1,1,0,0,0,通过
+T15,mock,python,1,1,1,0,0,0,通过
+T16,mock,qiyu,1,1,1,0,0,0,通过
+T16,mock,python,1,1,1,0,0,0,通过
+T18,mock,qiyu,1,1,1,0,0,0,通过
+T18,mock,python,1,1,1,0,0,0,通过
+T19,mock,qiyu,1,1,1,0,0,0,通过
+T19,mock,python,1,1,1,0,0,0,通过
+T20,mock,qiyu,1,1,1,0,0,0,通过
+T20,mock,python,1,1,1,0,0,0,通过
+T01,dummy,qiyu,1,0,0,3,0,0,生成器错误：HTTP Error 401: Authorization Required
+T01,MiniMax-M3,qiyu,1,1,1,1,11633,0,通过
+T01,MiniMax-M3,python,1,1,1,1,7012,0,通过
+T01,MiniMax-M3,qiyu,1,1,1,1,12946,0,通过
+T01,MiniMax-M3,qiyu,2,1,1,1,11660,0,通过
+T01,MiniMax-M3,qiyu,3,1,1,2,15614,0,通过
+T01,MiniMax-M3,python,1,1,1,3,11928,0,通过
+T01,MiniMax-M3,python,2,1,1,1,6055,0,通过
+T01,MiniMax-M3,python,3,1,1,0,2052,0,通过
+T02,MiniMax-M3,qiyu,1,1,1,0,18755,0,通过
+T02,MiniMax-M3,qiyu,2,1,1,0,18430,0,通过
+T02,MiniMax-M3,qiyu,3,0,0,3,0,0,生成器错误：timed out
+T02,MiniMax-M3,python,1,1,1,0,4441,0,通过
+T02,MiniMax-M3,python,2,1,1,0,2926,0,通过
+T02,MiniMax-M3,python,3,1,1,0,4634,0,通过
+T03,MiniMax-M3,qiyu,1,0,0,3,0,0,生成器错误：timed out
+T03,MiniMax-M3,qiyu,2,0,0,3,0,0,生成器错误：timed out
+T03,MiniMax-M3,qiyu,3,0,0,3,0,0,生成器错误：timed out
+T03,MiniMax-M3,python,1,1,1,0,767,0,通过
+T03,MiniMax-M3,python,2,1,1,0,1080,0,通过
+T03,MiniMax-M3,python,3,1,1,0,1031,0,通过
+T04,MiniMax-M3,qiyu,1,0,0,3,27980,0,r3 编译未过（E_LEX）
+T04,MiniMax-M3,qiyu,2,0,0,3,26114,0,r3 编译未过（E_LEX）
+T04,MiniMax-M3,qiyu,3,0,0,3,26445,0,r3 运行失败
+T04,MiniMax-M3,python,1,1,0,3,9846,1,r3 验收未通过
+T04,MiniMax-M3,python,2,1,0,3,3541,0,生成器错误：timed out
+T04,MiniMax-M3,python,3,0,0,3,0,0,生成器错误：timed out
+T05,MiniMax-M3,qiyu,1,0,0,3,0,0,生成器错误：timed out
+T05,MiniMax-M3,qiyu,2,0,0,3,0,0,生成器错误：timed out
+T05,MiniMax-M3,qiyu,3,0,0,3,0,0,生成器错误：timed out
+T05,MiniMax-M3,python,1,1,0,3,17473,0,r3 验收未通过
+T05,MiniMax-M3,python,2,1,0,3,2970,0,生成器错误：timed out
+T05,MiniMax-M3,python,3,1,0,3,11849,0,r3 验收未通过
+T06,MiniMax-M3,qiyu,1,0,0,3,0,0,生成器错误：timed out
+T06,MiniMax-M3,qiyu,2,0,0,3,0,0,生成器错误：timed out
+T06,MiniMax-M3,qiyu,3,0,0,3,0,0,生成器错误：timed out
+T06,MiniMax-M3,python,1,0,0,3,0,0,生成器错误：timed out
+T06,MiniMax-M3,python,2,1,1,1,17265,0,通过
+T06,MiniMax-M3,python,3,1,1,0,10141,0,通过
+T07,MiniMax-M3,qiyu,1,0,0,3,32929,0,r3 编译未过（E_PARSE）
+T07,MiniMax-M3,qiyu,2,0,0,3,30491,0,r3 运行失败
+T07,MiniMax-M3,qiyu,3,0,0,3,32970,0,r3 编译未过（E_PARSE）
+T07,MiniMax-M3,python,1,1,1,0,2679,0,通过
+T07,MiniMax-M3,python,2,1,1,0,2150,0,通过
+T07,MiniMax-M3,python,3,1,1,1,3299,0,通过
+T08,MiniMax-M3,qiyu,1,0,0,3,0,0,生成器错误：timed out
+T08,MiniMax-M3,qiyu,2,0,0,3,39988,0,r3 编译未过（E_LEX）
+T08,MiniMax-M3,qiyu,3,0,0,3,49943,0,r3 运行失败
+T08,MiniMax-M3,python,1,1,0,3,10735,0,r3 验收未通过
+T08,MiniMax-M3,python,2,1,0,3,10314,0,r3 验收未通过
+T08,MiniMax-M3,python,3,1,1,1,3009,0,通过
+T09,MiniMax-M3,qiyu,1,0,0,3,54550,0,r3 编译未过（E_LEX）
+T09,MiniMax-M3,qiyu,2,0,0,3,47294,0,r3 编译未过（E_PARSE）
+T09,MiniMax-M3,qiyu,3,1,1,0,12990,0,通过
+T09,MiniMax-M3,python,1,1,1,0,2197,0,通过
+T09,MiniMax-M3,python,2,1,1,0,1254,0,通过
+T09,MiniMax-M3,python,3,1,1,0,720,0,通过
+T10,MiniMax-M3,qiyu,1,0,0,3,42873,0,r3 运行失败
+T10,MiniMax-M3,qiyu,2,0,0,3,39034,0,r3 编译未过（E_LEX）
+T10,MiniMax-M3,qiyu,3,0,0,3,35738,0,r3 编译未过（E_LEX）
+T10,MiniMax-M3,python,1,1,0,3,10172,1,r3 验收未通过
+T10,MiniMax-M3,python,2,1,0,3,11585,0,r3 运行失败
+T10,MiniMax-M3,python,3,1,0,3,16164,1,r3 验收未通过
+T11,MiniMax-M3,qiyu,1,0,0,3,15234,0,生成器错误：timed out
+T11,MiniMax-M3,qiyu,2,0,0,3,0,0,生成器错误：timed out
+T11,MiniMax-M3,qiyu,3,0,0,3,0,0,生成器错误：timed out
+T11,MiniMax-M3,qiyu,1,1,1,0,14359,0,通过
+T11,MiniMax-M3,qiyu,2,1,1,0,9457,0,通过
+T11,MiniMax-M3,qiyu,3,1,1,1,28242,0,通过
+T11,MiniMax-M3,python,1,1,1,0,3081,0,通过
+T11,MiniMax-M3,python,2,1,1,0,3259,0,通过
+T11,MiniMax-M3,python,3,1,1,0,4437,0,通过
+T12,MiniMax-M3,qiyu,1,0,0,3,28869,0,r3 运行失败
+T12,MiniMax-M3,qiyu,2,0,0,3,32149,0,r3 运行失败
+T12,MiniMax-M3,qiyu,3,0,0,3,27921,0,r3 编译未过（E_PARSE）
+T12,MiniMax-M3,python,1,1,1,0,1459,0,通过
+T12,MiniMax-M3,python,2,1,1,0,1192,0,通过
+T12,MiniMax-M3,python,3,1,1,0,1229,0,通过
+T13,MiniMax-M3,qiyu,1,0,0,3,0,0,生成器错误：HTTP Error 502: Bad Gateway
+T13,MiniMax-M3,qiyu,2,0,0,3,0,0,生成器错误：HTTP Error 502: Bad Gateway
+T13,MiniMax-M3,qiyu,3,0,0,3,0,0,生成器错误：HTTP Error 502: Bad Gateway
+T13,MiniMax-M3,python,1,1,1,1,16445,0,通过
+T13,MiniMax-M3,python,2,1,0,3,53528,0,r3 验收未通过
+T13,MiniMax-M3,python,3,1,0,3,32186,0,r3 验收未通过
+T14,MiniMax-M3,qiyu,1,0,0,3,75825,0,r3 编译未过（E_PARSE）
+T14,MiniMax-M3,qiyu,2,0,0,3,81442,0,r3 运行失败
+T14,MiniMax-M3,qiyu,3,1,0,3,59542,0,r3 验收未通过
+T14,MiniMax-M3,python,1,1,1,0,3100,0,通过
+T14,MiniMax-M3,python,2,1,1,0,4003,0,通过
+T14,MiniMax-M3,python,3,1,1,0,2701,0,通过
+T15,MiniMax-M3,qiyu,1,0,0,3,0,0,生成器错误：HTTP Error 502: Bad Gateway
+T15,MiniMax-M3,qiyu,2,0,0,3,0,0,生成器错误：HTTP Error 502: Bad Gateway
+T15,MiniMax-M3,qiyu,3,1,0,3,22465,0,生成器错误：HTTP Error 502: Bad Gateway
+T15,MiniMax-M3,python,1,1,0,3,13952,0,r3 验收未通过
+T15,MiniMax-M3,python,2,1,0,3,14248,0,r3 验收未通过
+T15,MiniMax-M3,python,3,1,0,3,5711,0,生成器错误：HTTP Error 502: Bad Gateway
+T16,MiniMax-M3,qiyu,1,0,0,3,0,0,生成器错误：HTTP Error 502: Bad Gateway
+T16,MiniMax-M3,qiyu,2,0,0,3,0,0,生成器错误：HTTP Error 502: Bad Gateway
+T16,MiniMax-M3,qiyu,3,1,0,3,11004,0,生成器错误：HTTP Error 502: Bad Gateway
+T16,MiniMax-M3,python,1,1,1,1,3425,0,通过
+T16,MiniMax-M3,python,2,1,1,1,6675,0,通过
+T16,MiniMax-M3,python,3,1,0,3,1771,0,生成器错误：HTTP Error 401: Unauthorized
+T17,MiniMax-M3,qiyu,1,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T17,MiniMax-M3,qiyu,2,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T17,MiniMax-M3,qiyu,3,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T17,MiniMax-M3,python,1,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T17,MiniMax-M3,python,2,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T17,MiniMax-M3,python,3,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T18,MiniMax-M3,qiyu,1,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T18,MiniMax-M3,qiyu,2,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T18,MiniMax-M3,qiyu,3,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T18,MiniMax-M3,python,1,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T18,MiniMax-M3,python,2,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T18,MiniMax-M3,python,3,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T19,MiniMax-M3,qiyu,1,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T19,MiniMax-M3,qiyu,2,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T19,MiniMax-M3,qiyu,3,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T19,MiniMax-M3,python,1,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T19,MiniMax-M3,python,2,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T19,MiniMax-M3,python,3,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T20,MiniMax-M3,qiyu,1,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T20,MiniMax-M3,qiyu,2,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T20,MiniMax-M3,qiyu,3,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T20,MiniMax-M3,python,1,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T20,MiniMax-M3,python,2,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T20,MiniMax-M3,python,3,0,0,3,0,0,生成器错误：HTTP Error 401: Unauthorized
+T01,mock,qiyu,1,1,1,1,0,0,通过
+T01,mock,python,1,1,1,0,0,0,通过
+T06,mock,qiyu,1,1,1,0,0,0,通过
+T06,mock,python,1,1,1,0,0,0,通过
+T12,mock,qiyu,1,1,1,0,0,0,通过
+T12,mock,python,1,1,1,0,0,0,通过

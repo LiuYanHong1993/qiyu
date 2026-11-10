@@ -1,0 +1,269 @@
+task,model,lang,seed,compile_pass,test_pass,repair_rounds,tokens,undeclared_effects,notes
+T01,MiniMax-M3,qiyu,1,1,1,1,11599,0,通过
+T01,MiniMax-M3,qiyu,2,1,1,1,10925,0,通过
+T01,MiniMax-M3,qiyu,3,1,1,2,15931,0,通过
+T01,MiniMax-M3,python,1,1,1,1,8865,0,通过
+T01,MiniMax-M3,python,2,1,1,0,3653,0,通过
+T01,MiniMax-M3,python,3,1,1,1,7716,0,通过
+T02,MiniMax-M3,qiyu,1,1,1,1,42116,0,通过
+T02,MiniMax-M3,qiyu,2,1,1,0,19597,0,通过
+T02,MiniMax-M3,qiyu,3,1,0,3,72577,0,r3 运行失败
+T02,MiniMax-M3,python,1,1,1,0,4908,0,通过
+T02,MiniMax-M3,python,2,1,1,0,3823,0,通过
+T02,MiniMax-M3,python,3,1,1,0,2967,0,通过
+T03,MiniMax-M3,qiyu,1,1,1,0,5463,0,通过
+T03,MiniMax-M3,qiyu,2,1,1,0,5286,0,通过
+T03,MiniMax-M3,qiyu,3,1,1,1,11566,0,通过
+T03,MiniMax-M3,python,1,1,1,0,962,0,通过
+T03,MiniMax-M3,python,2,1,1,0,1052,0,通过
+T03,MiniMax-M3,python,3,1,1,0,771,0,通过
+T04,MiniMax-M3,qiyu,1,0,0,3,25987,0,r3 编译未过（E_LEX）
+T04,MiniMax-M3,qiyu,2,0,0,3,25812,0,r3 编译未过（E_LEX）
+T04,MiniMax-M3,qiyu,3,1,1,2,22042,0,通过
+T04,MiniMax-M3,python,1,1,0,3,13259,0,r3 验收未通过
+T04,MiniMax-M3,python,2,1,0,3,11896,1,r3 验收未通过
+T04,MiniMax-M3,python,3,1,0,3,15055,1,r3 验收未通过
+T05,MiniMax-M3,qiyu,1,0,0,3,67500,0,r3 运行失败
+T05,MiniMax-M3,qiyu,2,0,0,3,65944,0,r3 编译未过（E_LEX）
+T05,MiniMax-M3,qiyu,3,1,0,3,69535,0,r3 验收未通过
+T05,MiniMax-M3,python,1,1,0,3,16495,0,r3 验收未通过
+T05,MiniMax-M3,python,2,1,0,3,26020,0,r3 验收未通过
+T05,MiniMax-M3,python,3,1,0,3,14067,0,r3 验收未通过
+T02,MiniMax-M3,qiyu,3,1,1,1,44880,0,通过
+T04,MiniMax-M3,qiyu,1,1,0,3,26937,0,r3 验收未通过
+T04,MiniMax-M3,qiyu,2,0,0,3,26463,0,r3 编译未过（E_PARSE）
+T04,MiniMax-M3,python,1,1,1,0,2234,0,通过
+T04,MiniMax-M3,python,2,1,1,1,4576,0,通过
+T04,MiniMax-M3,python,3,1,1,0,2140,0,通过
+T05,MiniMax-M3,qiyu,1,0,0,3,18261,0,生成器错误：HTTP Error 502: Bad Gateway
+T05,MiniMax-M3,qiyu,2,0,0,3,69561,0,r3 运行失败
+T05,MiniMax-M3,qiyu,3,0,0,3,0,0,生成器错误：HTTP Error 502: Bad Gateway
+T05,MiniMax-M3,python,1,1,0,3,14691,0,r3 验收未通过
+T05,MiniMax-M3,python,2,1,0,3,13195,0,r3 验收未通过
+T05,MiniMax-M3,python,3,1,0,3,15648,0,r3 验收未通过
+T06,MiniMax-M3,qiyu,1,0,0,3,0,0,生成器错误：HTTP Error 502: Bad Gateway
+T06,MiniMax-M3,qiyu,2,0,0,3,0,0,生成器错误：HTTP Error 502: Bad Gateway
+T06,MiniMax-M3,qiyu,3,1,0,3,94047,0,r3 验收未通过（结构）
+T06,MiniMax-M3,python,1,1,1,1,21615,0,通过
+T06,MiniMax-M3,python,2,1,1,0,10062,0,通过
+T06,MiniMax-M3,python,3,1,1,1,26100,0,通过
+T07,MiniMax-M3,qiyu,1,0,0,3,28541,0,r3 编译未过（E_LEX）
+T07,MiniMax-M3,qiyu,2,0,0,3,36620,0,r3 编译未过（E_LEX）
+T07,MiniMax-M3,qiyu,3,0,0,3,30462,0,r3 编译未过（E_LEX）
+T07,MiniMax-M3,python,1,1,1,0,2110,0,通过
+T07,MiniMax-M3,python,2,1,1,1,3737,0,通过
+T07,MiniMax-M3,python,3,1,0,3,9554,3,r3 验收未通过
+T08,MiniMax-M3,qiyu,1,0,0,3,41912,0,r3 运行失败
+T08,MiniMax-M3,qiyu,2,0,0,3,47559,0,r3 编译未过（E_PARSE）
+T08,MiniMax-M3,qiyu,3,0,0,3,43206,0,r3 运行失败
+T08,MiniMax-M3,python,1,1,1,2,5743,0,通过
+T08,MiniMax-M3,python,2,1,1,0,3249,0,通过
+T08,MiniMax-M3,python,3,1,0,3,8501,0,r3 验收未通过
+T09,MiniMax-M3,qiyu,1,1,1,1,21765,0,通过
+T09,MiniMax-M3,qiyu,2,1,1,2,34100,0,通过
+T09,MiniMax-M3,qiyu,3,1,1,0,14488,0,通过
+T09,MiniMax-M3,python,1,1,1,0,1400,0,通过
+T09,MiniMax-M3,python,2,1,1,0,1484,0,通过
+T09,MiniMax-M3,python,3,1,1,0,751,0,通过
+T10,MiniMax-M3,qiyu,1,0,0,3,40223,0,r3 编译未过（E_LEX）
+T10,MiniMax-M3,qiyu,2,1,0,3,42089,0,r3 验收未通过
+T10,MiniMax-M3,qiyu,3,1,0,3,33837,0,r3 编译未过（E_PARSE）
+T10,MiniMax-M3,python,1,1,0,3,12865,0,r3 验收未通过
+T10,MiniMax-M3,python,2,1,0,3,14939,0,r3 验收未通过
+T10,MiniMax-M3,python,3,1,0,3,11143,0,r3 验收未通过
+T11,MiniMax-M3,qiyu,1,1,1,3,51369,0,通过
+T11,MiniMax-M3,qiyu,2,1,1,0,11140,0,通过
+T11,MiniMax-M3,qiyu,3,1,1,0,11614,0,通过
+T11,MiniMax-M3,python,1,1,1,3,17978,0,通过
+T11,MiniMax-M3,python,2,1,1,1,7052,0,通过
+T11,MiniMax-M3,python,3,1,1,2,12198,0,通过
+T12,MiniMax-M3,qiyu,1,1,1,0,7211,0,通过
+T12,MiniMax-M3,qiyu,2,1,1,0,6941,0,通过
+T12,MiniMax-M3,qiyu,3,1,0,3,29025,0,r3 验收未通过
+T12,MiniMax-M3,python,1,1,1,0,1256,0,通过
+T12,MiniMax-M3,python,2,1,1,0,1189,0,通过
+T12,MiniMax-M3,python,3,1,1,0,1184,0,通过
+T13,MiniMax-M3,qiyu,1,0,0,3,0,0,生成器错误：HTTP Error 502: Bad Gateway
+T13,MiniMax-M3,qiyu,2,0,0,3,0,0,生成器错误：HTTP Error 502: Bad Gateway
+T13,MiniMax-M3,qiyu,3,0,0,3,0,0,生成器错误：HTTP Error 502: Bad Gateway
+T13,MiniMax-M3,python,1,1,0,3,37031,0,r3 验收未通过
+T13,MiniMax-M3,python,2,1,0,3,45620,0,r3 验收未通过
+T13,MiniMax-M3,python,3,1,0,3,37841,0,r3 验收未通过
+T14,MiniMax-M3,qiyu,1,0,0,3,69455,0,r3 编译未过（E_LEX）
+T14,MiniMax-M3,qiyu,2,0,0,3,69935,0,r3 编译未过（E_PARSE）
+T14,MiniMax-M3,qiyu,3,1,1,1,36039,0,通过
+T14,MiniMax-M3,python,1,1,1,0,2737,0,通过
+T14,MiniMax-M3,python,2,1,1,0,1918,0,通过
+T14,MiniMax-M3,python,3,1,1,0,2090,0,通过
+T17,MiniMax-M3,qiyu,1,1,1,0,10950,0,通过
+T17,MiniMax-M3,qiyu,2,1,1,0,10660,0,通过
+T17,MiniMax-M3,qiyu,3,1,1,0,12923,0,通过
+T17,MiniMax-M3,python,1,1,1,0,953,0,通过
+T17,MiniMax-M3,python,2,1,1,0,1667,0,通过
+T17,MiniMax-M3,python,3,1,1,0,1053,0,通过
+T15,MiniMax-M3,qiyu,1,1,0,3,60995,0,r3 验收未通过
+T15,MiniMax-M3,qiyu,2,0,0,3,55216,0,r3 编译未过（E_PARSE）
+T15,MiniMax-M3,qiyu,3,1,0,3,55859,0,r3 编译未过（E_PARSE）
+T15,MiniMax-M3,python,1,1,0,3,16529,0,r3 验收未通过
+T15,MiniMax-M3,python,2,1,0,3,12017,0,r3 验收未通过
+T15,MiniMax-M3,python,3,1,0,3,14426,0,r3 验收未通过
+T16,MiniMax-M3,qiyu,1,1,0,3,60711,0,r3 编译未过（E_PARSE）
+T16,MiniMax-M3,qiyu,2,0,0,3,66198,0,r3 编译未过（E_PARSE）
+T16,MiniMax-M3,qiyu,3,1,0,3,56285,0,r3 编译未过（E_PARSE）
+T16,MiniMax-M3,python,1,1,1,1,7909,0,通过
+T16,MiniMax-M3,python,2,1,1,1,5400,0,通过
+T16,MiniMax-M3,python,3,1,1,1,5186,0,通过
+T18,MiniMax-M3,qiyu,1,1,0,3,70245,0,r3 编译未过（E_PARSE）
+T18,MiniMax-M3,qiyu,2,0,0,3,76481,0,r3 编译未过（E_PARSE）
+T18,MiniMax-M3,qiyu,3,1,0,3,83603,0,r3 编译未过（E_PARSE）
+T18,MiniMax-M3,python,1,1,0,3,28372,0,r3 验收未通过
+T18,MiniMax-M3,python,2,1,0,3,19867,0,r3 验收未通过
+T18,MiniMax-M3,python,3,1,0,3,17014,0,r3 验收未通过
+T19,MiniMax-M3,qiyu,1,0,0,3,52090,0,r3 编译未过（E_LEX）
+T19,MiniMax-M3,qiyu,2,0,0,3,54873,0,r3 运行失败
+T19,MiniMax-M3,qiyu,3,0,0,3,63696,0,r3 运行失败
+T19,MiniMax-M3,python,1,1,0,3,24741,0,r3 验收未通过
+T19,MiniMax-M3,python,2,1,0,3,18984,0,r3 验收未通过
+T19,MiniMax-M3,python,3,1,0,3,16894,0,r3 验收未通过
+T20,MiniMax-M3,qiyu,1,0,0,3,70737,0,r3 编译未过（E_LEX）
+T20,MiniMax-M3,qiyu,2,0,0,3,67967,0,r3 运行失败
+T20,MiniMax-M3,qiyu,3,0,0,3,59960,0,r3 编译未过（E_PARSE）
+T20,MiniMax-M3,python,1,1,1,0,2524,0,通过
+T20,MiniMax-M3,python,2,1,1,0,2336,0,通过
+T20,MiniMax-M3,python,3,1,1,0,1946,0,通过
+T01,mock,qiyu,1,1,1,1,0,0,通过
+T04,MiniMax-M3,qiyu,1,0,0,3,24719,0,r3 运行失败
+T04,MiniMax-M3,qiyu,2,1,1,3,26052,0,通过
+T05,MiniMax-M3,qiyu,1,1,1,3,79243,0,通过
+T05,MiniMax-M3,qiyu,2,1,1,0,27535,0,通过
+T05,MiniMax-M3,qiyu,3,1,1,0,18634,0,通过
+T05,MiniMax-M3,python,1,1,0,3,15857,0,r3 验收未通过
+T05,MiniMax-M3,python,2,1,0,3,18464,0,r3 验收未通过
+T05,MiniMax-M3,python,3,1,0,3,14610,0,r3 验收未通过
+T06,MiniMax-M3,qiyu,1,0,0,3,102359,0,r3 运行失败
+T06,MiniMax-M3,qiyu,2,0,0,3,100963,0,r3 运行失败
+T06,MiniMax-M3,qiyu,3,1,0,3,103627,0,r3 运行失败
+T07,MiniMax-M3,qiyu,1,0,0,3,26960,0,r3 运行失败
+T07,MiniMax-M3,qiyu,2,1,1,3,28915,3,通过
+T07,MiniMax-M3,qiyu,3,1,0,3,30786,3,r3 验收未通过
+T07,MiniMax-M3,python,3,1,1,0,1829,0,通过
+T08,MiniMax-M3,qiyu,1,0,0,3,37422,0,r3 运行失败
+T08,MiniMax-M3,qiyu,2,0,0,3,46542,0,r3 运行失败
+T08,MiniMax-M3,qiyu,3,0,0,3,36918,0,r3 运行失败
+T08,MiniMax-M3,python,3,1,1,1,4168,0,通过
+T10,MiniMax-M3,qiyu,1,1,0,3,36594,0,r3 编译未过（E_PARSE）
+T10,MiniMax-M3,qiyu,2,1,1,2,23450,0,通过
+T10,MiniMax-M3,qiyu,3,1,0,3,43350,0,r3 运行失败
+T10,MiniMax-M3,python,1,1,1,3,13123,0,通过
+T10,MiniMax-M3,python,2,1,1,3,10423,0,通过
+T10,MiniMax-M3,python,3,1,1,2,9338,0,通过
+T12,MiniMax-M3,qiyu,3,1,1,0,6636,0,通过
+T13,MiniMax-M3,qiyu,1,0,0,3,0,0,生成器错误：HTTP Error 502: Bad Gateway
+T13,MiniMax-M3,qiyu,2,0,0,3,0,0,生成器错误：HTTP Error 502: Bad Gateway
+T13,MiniMax-M3,qiyu,3,0,0,3,0,0,生成器错误：HTTP Error 502: Bad Gateway
+T13,MiniMax-M3,python,1,1,0,3,33953,0,r3 验收未通过
+T13,MiniMax-M3,python,2,1,0,3,34465,0,r3 验收未通过
+T13,MiniMax-M3,python,3,1,1,1,17160,0,通过
+T14,MiniMax-M3,qiyu,1,1,1,2,55093,0,通过
+T14,MiniMax-M3,qiyu,2,1,1,0,15793,0,通过
+T15,MiniMax-M3,qiyu,1,1,0,3,61983,0,r3 验收未通过
+T15,MiniMax-M3,qiyu,2,1,0,3,70187,0,r3 验收未通过
+T15,MiniMax-M3,qiyu,3,1,0,3,55288,0,r3 编译未过（E_PARSE）
+T15,MiniMax-M3,python,1,1,0,3,19377,0,r3 验收未通过
+T15,MiniMax-M3,python,2,1,0,3,19190,0,r3 验收未通过
+T15,MiniMax-M3,python,3,1,0,3,13828,0,r3 验收未通过
+T16,MiniMax-M3,qiyu,1,1,0,3,57036,0,r3 运行失败
+T16,MiniMax-M3,qiyu,2,1,0,3,53915,0,r3 编译未过（E_PARSE）
+T16,MiniMax-M3,qiyu,3,1,0,3,58013,0,r3 验收未通过
+T18,MiniMax-M3,qiyu,1,1,0,3,94632,0,r3 验收未通过
+T18,MiniMax-M3,qiyu,2,1,0,3,80363,0,r3 验收未通过
+T18,MiniMax-M3,qiyu,3,1,0,3,76037,0,r3 验收未通过
+T18,MiniMax-M3,python,1,1,0,3,15834,0,r3 验收未通过
+T18,MiniMax-M3,python,2,1,0,3,22549,0,r3 验收未通过
+T18,MiniMax-M3,python,3,1,0,3,19802,0,r3 验收未通过
+T19,MiniMax-M3,qiyu,1,0,0,3,56539,0,r3 运行失败
+T19,MiniMax-M3,qiyu,2,0,0,3,65514,0,r3 运行失败
+T19,MiniMax-M3,qiyu,3,0,0,3,56282,0,r3 运行失败
+T19,MiniMax-M3,python,1,1,0,3,21714,0,r3 验收未通过
+T19,MiniMax-M3,python,2,1,0,3,26499,0,r3 验收未通过
+T19,MiniMax-M3,python,3,1,0,3,17625,0,r3 验收未通过
+T20,MiniMax-M3,qiyu,1,1,1,1,26319,0,通过
+T20,MiniMax-M3,qiyu,2,1,0,3,67785,0,r3 验收未通过
+T20,MiniMax-M3,qiyu,3,1,1,3,65683,0,通过
+T04,MiniMax-M3,qiyu,1,0,0,3,28068,0,r3 运行失败
+T04,MiniMax-M3,qiyu,1,1,1,1,14590,0,通过
+T05,MiniMax-M3,python,1,1,0,3,12773,0,r3 验收未通过
+T05,MiniMax-M3,python,2,1,0,3,16481,0,r3 验收未通过
+T05,MiniMax-M3,python,3,1,0,3,13604,0,r3 验收未通过
+T06,MiniMax-M3,qiyu,1,1,0,3,72373,0,r3 运行失败
+T06,MiniMax-M3,qiyu,2,0,0,3,0,0,生成器错误：HTTP Error 502: Bad Gateway
+T06,MiniMax-M3,qiyu,3,1,0,3,87842,0,r3 运行失败
+T07,MiniMax-M3,qiyu,1,1,1,1,20065,3,通过
+T07,MiniMax-M3,qiyu,3,1,1,3,26688,3,通过
+T08,MiniMax-M3,qiyu,1,0,0,3,43097,0,r3 运行失败
+T08,MiniMax-M3,qiyu,2,0,0,3,39598,0,r3 运行失败
+T08,MiniMax-M3,qiyu,3,0,0,3,43132,0,r3 运行失败
+T10,MiniMax-M3,qiyu,1,1,0,3,34296,0,r3 运行失败
+T10,MiniMax-M3,qiyu,3,1,0,3,34036,0,r3 验收未通过
+T13,MiniMax-M3,qiyu,1,0,0,3,53542,0,生成器错误：HTTP Error 502: Bad Gateway
+T13,MiniMax-M3,qiyu,2,0,0,3,0,0,生成器错误：HTTP Error 502: Bad Gateway
+T13,MiniMax-M3,qiyu,3,0,0,3,0,0,生成器错误：HTTP Error 502: Bad Gateway
+T13,MiniMax-M3,python,1,1,1,2,21659,0,通过
+T13,MiniMax-M3,python,2,1,1,0,7147,0,通过
+T15,MiniMax-M3,qiyu,1,1,0,3,61008,0,r3 验收未通过
+T15,MiniMax-M3,qiyu,2,1,0,3,51269,0,r3 验收未通过
+T15,MiniMax-M3,qiyu,3,1,0,3,58613,0,r3 编译未过（E_PARSE）
+T15,MiniMax-M3,python,1,1,0,3,14600,0,r3 验收未通过
+T15,MiniMax-M3,python,2,1,0,3,15928,0,r3 验收未通过
+T15,MiniMax-M3,python,3,1,0,3,13488,0,r3 验收未通过
+T16,MiniMax-M3,qiyu,1,1,0,3,52780,0,r3 验收未通过
+T16,MiniMax-M3,qiyu,2,1,0,3,61299,0,r3 运行失败
+T16,MiniMax-M3,qiyu,3,1,0,3,61542,0,r3 运行失败
+T18,MiniMax-M3,qiyu,1,1,0,3,61442,0,r3 验收未通过
+T18,MiniMax-M3,qiyu,2,1,0,3,76634,0,r3 验收未通过
+T18,MiniMax-M3,qiyu,3,1,0,3,83971,0,r3 编译未过（E_PARSE）
+T18,MiniMax-M3,python,1,1,0,3,20089,0,r3 验收未通过
+T18,MiniMax-M3,python,2,1,0,3,18321,0,r3 验收未通过
+T18,MiniMax-M3,python,3,1,0,3,15849,0,r3 验收未通过
+T19,MiniMax-M3,qiyu,1,0,0,3,53352,0,r3 运行失败
+T19,MiniMax-M3,qiyu,2,0,0,3,64396,0,r3 运行失败
+T19,MiniMax-M3,qiyu,3,0,0,3,59149,0,r3 运行失败
+T19,MiniMax-M3,python,1,1,0,3,22010,0,r3 验收未通过
+T19,MiniMax-M3,python,2,1,0,3,22048,0,r3 验收未通过
+T19,MiniMax-M3,python,3,1,0,3,27759,0,r3 验收未通过
+T20,MiniMax-M3,qiyu,2,1,1,1,33542,0,通过
+T05,MiniMax-M3,python,1,1,0,3,18087,0,r3 验收未通过
+T05,MiniMax-M3,python,2,1,0,3,18567,0,r3 验收未通过
+T05,MiniMax-M3,python,3,1,0,3,16853,0,r3 验收未通过
+T06,MiniMax-M3,qiyu,1,0,0,3,0,0,生成器错误：HTTP Error 502: Bad Gateway
+T06,MiniMax-M3,qiyu,2,1,0,3,84854,0,r3 验收未通过
+T06,MiniMax-M3,qiyu,3,0,0,3,0,0,生成器错误：HTTP Error 502: Bad Gateway
+T08,MiniMax-M3,qiyu,1,0,0,3,40785,0,r3 运行失败
+T08,MiniMax-M3,qiyu,2,0,0,3,40566,0,r3 运行失败
+T08,MiniMax-M3,qiyu,3,0,0,3,47276,0,r3 运行失败
+T10,MiniMax-M3,qiyu,1,1,0,3,35929,0,r3 运行失败
+T10,MiniMax-M3,qiyu,3,1,0,3,31499,0,r3 验收未通过
+T13,MiniMax-M3,qiyu,1,0,0,3,86097,0,r3 编译未过（E_PARSE）
+T13,MiniMax-M3,qiyu,2,0,0,3,0,0,生成器错误：HTTP Error 502: Bad Gateway
+T13,MiniMax-M3,qiyu,3,0,0,3,49968,0,生成器错误：HTTP Error 502: Bad Gateway
+T15,MiniMax-M3,qiyu,1,1,0,3,64487,0,r3 验收未通过
+T15,MiniMax-M3,qiyu,2,1,0,3,75335,0,r3 编译未过（E_PARSE）
+T15,MiniMax-M3,qiyu,3,1,0,3,55096,0,r3 验收未通过
+T15,MiniMax-M3,python,1,1,0,3,17156,0,r3 验收未通过
+T15,MiniMax-M3,python,2,1,0,3,20145,0,r3 验收未通过
+T15,MiniMax-M3,python,3,1,0,3,13174,0,r3 验收未通过
+T16,MiniMax-M3,qiyu,1,1,0,3,55464,0,r3 运行失败
+T16,MiniMax-M3,qiyu,2,1,0,3,54273,0,r3 运行失败
+T16,MiniMax-M3,qiyu,3,1,0,3,50786,0,r3 运行失败
+T18,MiniMax-M3,qiyu,1,1,0,3,80645,0,r3 验收未通过（结构）
+T18,MiniMax-M3,qiyu,2,1,0,3,70679,0,r3 编译未过（E_PARSE）
+T18,MiniMax-M3,qiyu,3,1,0,3,73884,0,r3 验收未通过
+T18,MiniMax-M3,python,1,1,0,3,16385,0,r3 验收未通过
+T18,MiniMax-M3,python,2,1,0,3,18456,0,r3 验收未通过
+T18,MiniMax-M3,python,3,1,0,3,19154,0,r3 验收未通过
+T19,MiniMax-M3,qiyu,1,0,0,3,62056,0,r3 运行失败
+T19,MiniMax-M3,qiyu,2,0,0,3,62387,0,r3 运行失败
+T19,MiniMax-M3,qiyu,3,0,0,3,62500,0,r3 运行失败
+T19,MiniMax-M3,python,1,1,0,3,26881,0,r3 验收未通过
+T19,MiniMax-M3,python,2,1,0,3,20053,0,r3 验收未通过
+T19,MiniMax-M3,python,3,1,0,3,21396,0,r3 验收未通过
